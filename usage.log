@@ -1,0 +1,63 @@
+2025-09-29 08:15:11,975 | HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-09-29 08:15:11,981 | HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-09-29 08:15:12,471 | HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-09-29 08:18:50,225 | HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-09-29 08:18:50,231 | HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-09-29 08:18:50,753 | HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-09-29 08:19:15,949 | Matplotlib is building the font cache; this may take a moment.
+2025-09-29 08:19:17,971 | Failed to extract font properties from /System/Library/Fonts/ZitherIndia.otf: Can not load face (SFNT font table missing; error code 0x8e)
+2025-09-29 08:19:17,995 | Failed to extract font properties from /System/Library/Fonts/ZitherMalayalam.otf: Can not load face (SFNT font table missing; error code 0x8e)
+2025-09-29 08:19:18,033 | Failed to extract font properties from /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc: Can not load face (locations (loca) table missing; error code 0x90)
+2025-09-29 08:19:18,038 | Failed to extract font properties from /System/Library/Fonts/Supplemental/NISC18030.ttf: Could not set the fontsize (invalid pixel size; error code 0x17)
+2025-09-29 08:19:18,052 | Failed to extract font properties from /System/Library/Fonts/Apple Color Emoji.ttc: Could not set the fontsize (invalid pixel size; error code 0x17)
+2025-09-29 08:19:18,073 | Failed to extract font properties from /System/Library/Fonts/ZitherTamil.otf: Can not load face (SFNT font table missing; error code 0x8e)
+2025-09-29 08:19:18,099 | Failed to extract font properties from /System/Library/Fonts/LastResort.otf: tuple indices must be integers or slices, not str
+2025-09-29 08:19:18,107 | generated new fontManager
+2025-09-29 08:19:18,665 | session=5b8c7af6 tool=ascvd inputs={'age': 60, 'sex': 'Male', 'race': 'White', 'total_cholesterol': 200, 'hdl': 50, 'sbp': 120, 'on_htn_meds': False, 'smoker': False, 'diabetes': False} outputs={'Patient ID': '', '10-Year ASCVD Risk': '7.7%', 'Risk Category': 'Intermediate'}
+2025-09-29 08:21:40,488 | HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-09-29 08:21:40,496 | HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-09-29 08:21:40,993 | HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-09-29 08:22:39,318 | session=e505fa81 tool=ecg_interpret inputs={'rate': 75, 'regular': False, 'p_waves_present': True, 'st_elevation': False, 'qt_interval_ms': 400, 'rr_interval_ms': 800, 'lvh_criteria_met': False, 'pathological_q_waves': True, 't_wave_inversion': True, 'pr_interval_ms': 160} outputs=Error: q_wave_leads is required when pathological_q_waves is True
+2025-09-29 08:27:13,315 | HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-09-29 08:27:13,323 | HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-09-29 08:27:13,765 | HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-09-29 08:27:52,220 | session=98c77384 tool=ascvd inputs={'age': 60, 'sex': 'Male', 'race': 'White', 'total_cholesterol': 200, 'hdl': 50, 'sbp': 120, 'on_htn_meds': True, 'smoker': False, 'diabetes': False} outputs=10-Year ASCVD Risk: 9.0% (Intermediate)
+2025-09-29 08:28:02,439 | session=9f35d555 tool=bp_category inputs={'sbp': 120, 'dbp': 80} outputs=Blood Pressure Category: Stage 1 Hypertension
+2025-09-29 08:28:13,080 | session=8b80cce4 tool=cha2ds2vasc inputs={'chf': 0, 'hypertension': 1, 'age_ge_75': 0, 'diabetes': 0, 'stroke': 1, 'vascular': 0, 'age_65_74': 1, 'female': 0} outputs=CHA₂DS₂-VASc Score: 4
+2025-09-29 08:28:20,775 | session=4a64cd2b tool=ecg_interpret inputs={'rate': 75, 'regular': False, 'p_waves_present': False, 'st_elevation': False, 'qt_interval_ms': 400, 'rr_interval_ms': 800, 'lvh_criteria_met': False, 'pathological_q_waves': False, 't_wave_inversion': False, 'pr_interval_ms': 160} outputs=Rhythm: Possible AFib or arrhythmia
+Findings: []
+Overall Risk: Low
+2025-09-29 08:31:49,236 | HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-09-29 08:31:49,243 | HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-09-29 08:31:49,665 | HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-09-29 08:32:06,439 | session=81c28470 tool=ecg_interpret inputs={'rate': 75, 'regular': False, 'p_waves_present': False, 'st_elevation': False, 'qt_interval_ms': 400, 'rr_interval_ms': 800, 'lvh_criteria_met': False, 'pathological_q_waves': False, 't_wave_inversion': False, 'pr_interval_ms': 160} outputs=Rhythm: Possible AFib or arrhythmia
+Findings: []
+Overall Risk: Low
+2025-09-29 08:32:21,351 | HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-09-29 08:32:21,359 | HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-09-29 08:32:21,783 | HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-09-29 08:32:37,422 | session=0362c0ff tool=ecg_interpret inputs={'rate': 75, 'regular': False, 'p_waves_present': False, 'st_elevation': False, 'qt_interval_ms': 400, 'rr_interval_ms': 800, 'lvh_criteria_met': False, 'pathological_q_waves': False, 't_wave_inversion': False, 'pr_interval_ms': 160} outputs=Rhythm: Possible AFib or arrhythmia
+Findings: []
+Overall Risk: Low
+2025-09-29 08:37:28,837 | HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-09-29 08:37:28,846 | HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-09-29 08:37:29,278 | HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-09-29 08:38:17,966 | session=b1258e41 tool=ecg_interpret inputs={'rate': 75, 'regular': False, 'p_waves_present': False, 'st_elevation': False, 'qt_interval_ms': 400, 'rr_interval_ms': 800, 'lvh_criteria_met': False, 'pathological_q_waves': False, 't_wave_inversion': False, 'pr_interval_ms': 160} outputs=Rhythm: Possible AFib or arrhythmia
+Findings: No 12-lead abnormalities detected
+Overall Risk: Low
+2025-09-29 08:41:42,671 | HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-09-29 08:41:42,678 | HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-09-29 08:41:43,204 | HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-09-29 08:41:43,208 | HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-09-29 08:41:43,468 | HTTP Request: GET https://cdn-media.huggingface.co/frpc-gradio-0.3/frpc_darwin_arm64 "HTTP/1.1 200 OK"
+2025-10-01 14:21:13,638 | HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-01 14:21:13,645 | HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-10-01 14:21:14,078 | HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-10-01 14:21:14,178 | HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-10-01 14:21:40,382 | session=d0111ab1 tool=ascvd inputs={'age': 60, 'sex': 'Male', 'race': 'White', 'total_cholesterol': 200, 'hdl': 50, 'sbp': 120, 'on_htn_meds': False, 'smoker': True, 'diabetes': False} outputs=10-Year ASCVD Risk: 12.3% (Intermediate)
+2025-10-01 14:22:12,002 | session=bcaa92dc tool=ascvd inputs={'age': 60, 'sex': 'Male', 'race': 'White', 'total_cholesterol': 200, 'hdl': 50, 'sbp': 120, 'on_htn_meds': True, 'smoker': False, 'diabetes': False} outputs=10-Year ASCVD Risk: 9.0% (Intermediate)
+2025-10-01 14:22:56,654 | session=904047b6 tool=bp_category inputs={'sbp': 120, 'dbp': 80} outputs=Blood Pressure Category: Stage 1 Hypertension
+2025-10-01 14:23:17,312 | session=f7acb707 tool=cha2ds2vasc inputs={'chf': 0, 'hypertension': 1, 'age_ge_75': 1, 'diabetes': 0, 'stroke': 0, 'vascular': 0, 'age_65_74': 0, 'female': 0} outputs=CHA₂DS₂-VASc Score: 3
+2025-10-01 14:23:38,953 | session=4d4a14ed tool=ecg_interpret inputs={'rate': 75, 'regular': False, 'p_waves_present': False, 'st_elevation': False, 'qt_interval_ms': 400, 'rr_interval_ms': 800, 'lvh_criteria_met': False, 'pathological_q_waves': False, 't_wave_inversion': False, 'pr_interval_ms': 160} outputs=Rhythm: Possible AFib or arrhythmia
+Findings: No 12-lead abnormalities detected
+Overall Risk: Low

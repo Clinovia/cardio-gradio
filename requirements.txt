@@ -1,0 +1,7 @@
+gradio
+reportlab
+fpdf
+pandas
+numpy
+scipy
+scikit-learn
